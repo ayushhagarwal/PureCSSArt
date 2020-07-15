@@ -1,0 +1,137 @@
+body {
+  background: #25a9fc;
+}
+p{
+  text-align: center;
+  font-size: 2rem;
+  color:rebeccapurple;
+  font-weight: 700;
+}
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  background:none;
+  margin-top: 4%;
+  width:600px;
+  height:420px;
+  animation-name: main;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes main{
+  0% {transform: translateX(10rem)}
+}
+.head{
+    position: absolute;
+    top: 16.5%;
+    left: 25%;
+    width: 50%;
+    height:67%;
+    background:#F76FAC;
+    border-radius: 50%;
+}
+.head-copy{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #F76FAC;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .ear-left{
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    left: -20%;
+    top: 5%;
+    background: #F76FAC;
+    border-radius: 40%;
+    z-index: 1;
+  }
+  .ear-right{
+    position: absolute;
+    width: 40%;
+    height: 55%;
+    right: -20%;
+    top: 5%;
+    background: #F76FAC;
+    border-radius: 40%;
+    z-index: 1;
+  }
+  .inner-ear{
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #F8A6CA;
+  }
+  .eye-left{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 16%;
+    border-radius: 50%;
+    z-index: 3;
+  }
+  .eye-right{
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    right: 16%;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .pupil{
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+    animation-name: light;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes light{
+    0%{transform: scale(1);}
+    50%{transform: scale(2);}
+  }
+  .nose{
+    position: absolute;
+    background: #F8A6CA;
+    width: 45%;
+    height: 42.5%;
+    left: 27%;
+    top: 55%;
+    border-radius: 50%;
+    z-index: 4;
+  }
+  .nostril{
+    position:absolute;
+    border-left: 6px solid #F76FAC;
+    height: 50px;
+    left:25%;
+    top:30%;
+  }
+  .nostril1{
+    position:absolute;
+    border-left: 6px solid #F76FAC;
+    height: 50px;
+    left:45%;
+    top:30%;
+  }
+  .nostril2{
+    position:absolute;
+    border-left: 6px solid #F76FAC;
+    height: 50px;
+    left:65%;
+    top:30%;
+  }
